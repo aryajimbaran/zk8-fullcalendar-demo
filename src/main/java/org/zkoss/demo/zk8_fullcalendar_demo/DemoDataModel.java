@@ -15,9 +15,9 @@ public class DemoDataModel implements EventsDataModel {
 	public DemoDataModel() {
 		dateFormatter.setTimeZone(TimeZone.getTimeZone("GMT+8:00"));
 		_evtMap = new HashMap<String, EventObject>();
-		EventObject evt1 = new EventObject("evt1", "test1", parseDate("2015-03-15 14:00"));
-		EventObject evt2 = new EventObject("evt2", "test2", parseDate("2015-03-17 09:30"));
-		evt2.setEnd(parseDate("2015-03-20 00:00"));
+		EventObject evt1 = new EventObject("evt1", "test1", parseDate("2015-04-15 14:00"));
+		EventObject evt2 = new EventObject("evt2", "test2", parseDate("2015-04-17 09:30"));
+		evt2.setEnd(parseDate("2015-04-20 00:00"));
 		_evtMap.put(evt1.getId(), evt1);
 		_evtMap.put(evt2.getId(), evt2);
 	}

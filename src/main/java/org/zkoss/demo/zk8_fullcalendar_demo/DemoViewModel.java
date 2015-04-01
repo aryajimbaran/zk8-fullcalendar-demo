@@ -13,7 +13,7 @@ import org.zkoss.bind.annotation.NotifyChange;
 import org.zkoss.bind.annotation.NotifyCommand;
 import org.zkoss.zul.Popup;
 
-@NotifyCommand(value="doEventsChange", onChange="vm.events")
+@NotifyCommand(value="doEventsChange", onChange="_vm_.events")
 @ClientCommand({"doEventClicked", "doDayClicked", "doEventsChange"})
 public class DemoViewModel {
 	
