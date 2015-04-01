@@ -4,10 +4,6 @@
 	<!-- [Optional] Uncomment if you want to defines the application's name 
 		<preference> <name>org.zkoss.zk.ui.WebApp.name</name> <value>zk8-fullcalendar-demo</value> 
 		</preference> -->
-	<listener>
-		<listener-class>org.zkoss.bind.impl.ClientBinderPhaseListener
-		</listener-class>
-	</listener>
 	
 	<library-property>
 		<name>org.zkoss.theme.preferred</name>
