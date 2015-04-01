@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.zkoss.demo</groupId>
 	<artifactId>zk8-fullcalendar-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.8.0</version>
 	<properties>
 		<zk.version>8.0.0.FL.20150331-Eval</zk.version>
 		<commons-io>2.1</commons-io>
