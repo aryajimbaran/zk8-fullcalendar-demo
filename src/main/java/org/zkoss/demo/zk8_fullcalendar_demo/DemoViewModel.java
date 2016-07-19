@@ -6,7 +6,7 @@ import java.util.Collection;
 import java.util.Date;
 
 import org.zkoss.bind.annotation.BindingParam;
-import org.zkoss.bind.annotation.ClientCommand;
+import org.zkoss.bind.annotation.ToServerCommand;
 import org.zkoss.bind.annotation.Command;
 import org.zkoss.bind.annotation.Init;
 import org.zkoss.bind.annotation.NotifyChange;
@@ -14,7 +14,7 @@ import org.zkoss.bind.annotation.NotifyCommand;
 import org.zkoss.zul.Popup;
 
 @NotifyCommand(value="doEventsChange", onChange="_vm_.events")
-@ClientCommand({"doEventClicked", "doDayClicked", "doEventsChange"})
+@ToServerCommand({"doEventClicked", "doDayClicked", "doEventsChange"})
 public class DemoViewModel {
 	
 	private EventsDataModel dataModel;
